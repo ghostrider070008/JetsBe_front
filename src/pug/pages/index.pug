@@ -10,45 +10,23 @@ html(lang="ru-RU")
         title Templates 9
     body
 
-            header
-                .container
-                    .row
-                        div(class="dropdown-list")
-                            h3 Для Мужчин
-                        div(class="dropdown-list")
-                            h3 Для Женщин
-                        div(class="dropdown-list")
-                            h3 Для Детей
-                        div(class="dropdown-list")
-                            .row
-                                img(src="static/img/header/logo.png" alt="Логотип")
-                                h1 the loop
-                        div(class="")
-                            a(href="#")
-                                h3 Оплата
-                        div(class="")
-                            a(href="#")
-                                h3 Доставка
-                        div(class="")
-                            a(href="#")
-                               .row
-                                    img(src="static/img/header/car.png")
-                                    img(src="static/img/header/count.png")
-            div(class="")
+        header
+            .conteiner
                 .row
-                    div(class="")
-                        h3 Зимняя распродажа
-                        h2 Скидки до 90%
-                        a(href="")
-                            p Смотреть модели
-                    div(class="")
-                        h3 9 900 ₽
-                        h2 1900 ₽
-            div(class="")
+                    header
+                        .row
+                            img(src="static/img/header/logo.png")
+                            button(class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+                                aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation")
+                                span(class="dark-blue-text")
+                                    i(class="fas fa-bars fa-1x")
                 .row
-            div(class="")
-                h2 Бесплатная доставка от 3000₽
-                h3 Сделайте заказ и получите подарок
+                    .logo-name
+                        p(class="p-logo-name") Jetsbe Sharing
+                .row
+                    p(class="lorem") Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
 
     script(src="static/js/libs.min.js")
     script(src="static/js/main.js")
